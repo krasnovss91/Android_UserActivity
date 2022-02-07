@@ -10,9 +10,10 @@
         android:id="@+id/textView"
         android:layout_width="147dp"
         android:layout_height="24dp"
-        android:text="TextView"
+        android:text="Поле работы"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="132dp" />
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -20,9 +21,10 @@
         android:layout_height="35dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Имя"
         tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -30,23 +32,26 @@
         android:layout_height="35dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Фамилия"
         tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:text="Ввести информацию о работе"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Сохранить"
         tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
