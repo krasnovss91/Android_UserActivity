@@ -22,9 +22,16 @@ class UserNameActivity : AppCompatActivity() {
 
         val intent = Intent(this, SecondActivity::class.java)
 
-        button2.setOnClickListener(object : View.OnClickListener { // описать события при вводе информации и сохранении
+        button1.setOnClickListener(object : View.OnClickListener { // описать сохранение editText1 и editText2
+            override fun onClick(p0: View?) {
+
+            }
+        })
+
+        button2.setOnClickListener(object :
+            View.OnClickListener { // описать события при вводе информации и сохранении информации о работе
             override fun onClick(v: View?) {
-               // intent.putExtra("result", editText_1.text.toString() + editText_2.text.toString())
+                // intent.putExtra("result", editText_1.text.toString() + editText_2.text.toString())
                 startActivity(intent)
             }
         })
